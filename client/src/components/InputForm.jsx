@@ -21,7 +21,7 @@ const InputForm = ({ setGeneratedPaper, setLoading, loading }) => {
     setLoading(true);
     setGeneratedPaper(null); 
     try {
-      const response = await axios.post('http://localhost:5000/api/generate-questions', formData);
+      const response = await axios.post('https://ai-question-papper-generator-using-llm.onrender.com/api/generate-questions', formData);
       setGeneratedPaper(response.data.data);
     } catch (error) {
       console.error("Error calling backend:", error);

@@ -35,7 +35,7 @@ const Preview = ({ generatedPaper }) => {
   const handleDownload = () => {
     // Check if backend supports saving edited content, otherwise warn user
     // For now, this downloads the originally generated PDF from backend
-    window.open('http://localhost:5000/api/download-pdf', '_blank');
+    window.open('https://ai-question-papper-generator-using-llm.onrender.com/api/download-pdf', '_blank');
   };
 
   const handleCopy = () => {
