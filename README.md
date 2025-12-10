@@ -94,9 +94,8 @@ Handles communication between Frontend and Backend.
 
 🔄 Workflow Diagram
 
-The following diagram illustrates how data flows from the user to the AI and back.
+<img width="2816" height="1536" alt="Gemini_Generated_Image_yledz2yledz2yled" src="https://github.com/user-attachments/assets/e1252136-d330-451f-bef6-88059f40ec5f" />
 
-graph TD     User([👤 Teacher]) -->|1. Enters Subject & Topic| UI[💻 React Frontend]     UI -->|2. Sends Request| Server[⚙️ Node.js Backend]     Server -->|3. Generates Prompt| Server     Server -->|4. Calls API| AI[🧠 Google Gemini AI]     AI -->|5. Returns Questions| Server     Server -->|6. Sends Text| Preview[📄 Editable Preview]     Preview -->|7. Review & Edit| User     User -->|8. Clicks Download| PDF[📥 PDF Generator]     PDF -->|9. Final PDF| User 
 
 💻 Installation & Setup
 
@@ -190,4 +189,4 @@ ai-question-paper-generator/
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Geethapriyan S
