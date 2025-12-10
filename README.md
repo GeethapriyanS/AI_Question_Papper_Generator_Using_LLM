@@ -24,7 +24,7 @@ License
 
 🚀 Project Overview
 
-Creating exam papers manually is time-consuming and tedious. The AI Question Paper Generator solves this by using Generative AI (Google Gemini 1.5 Flash) to instantly create high-quality, structured exam papers based on your specific requirements (Subject, Topic, Difficulty, etc.). It features a modern, responsive UI where teachers can preview, edit, and download the final paper as a professional PDF.
+Creating exam papers manually is time-consuming and tedious. The AI Question Paper Generator solves this by using Generative AI (Google Gemini 2.5 Flash) to instantly create high-quality, structured exam papers based on your specific requirements (Subject, Topic, Difficulty, etc.). It features a modern, responsive UI where teachers can preview, edit, and download the final paper as a professional PDF.
 
 ✨ Key Features
 
